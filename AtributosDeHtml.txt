@@ -1,0 +1,62 @@
+ATRIBUTOS
+	target	
+		<a href="https://google.com" target="_BLANK">
+			target="_BLANK" : SIRVE PARA ABRIR LA PAGINA EN OTRA PESTAÑA
+		
+	ID
+		<a href="# donde queremos que valla">click aqui</a>
+		<h2 id="donde queremos que valla">
+		
+		</h2>
+	readonly	
+		<textarea readonly="">
+			sirve para solo dejar leer
+		</textarea>
+
+ATRIBUTOS DE META
+	<meta name="keywords" content="palabras">
+		permite colocar todas las palabras claves de la pagina para que se puedad buscar mejor en el navegador
+	<meta name="description" content="" >
+		se usa para describir la pagina
+	<meta name="author" content="">
+		permite colocar el autor de la pagina web
+	<meta name="copyright" content="">
+		informa si la pagina tiene copyright o no, se pone el nombre de la empresa dueña de la pagina
+	<meta name ="robots" content="index">
+		deja que la pagina sea indexable
+	<meta name ="robots" content="noindex">
+		no deja que la pagina sea indexeable  o que no se muestre entre las opciones	
+
+
+ATRIBUTOS DE IMAGEN
+	<img src="" height""  width="" alt="" title="">
+		- height"" : Alto
+		- width="" : Ancho
+		- alt=""   : en caso de que la imagen no se pueda mostrar aparece un titulo relacionado con la imagen	
+		- title="" : sirve para darle un titulo a la imagen
+
+ATRIBULOS DE VIDEO
+	<video src =""  controls>
+		- controls =" " : Permite acceder a los controles del video, tiene un valor que esta configurado por el navegador
+		-	
+	</video>
+
+ATRIBUTOS DE AUDIO
+	<audio src =""  controls	>
+		- controls : Permite acceder a los controles del audio, tiene un valor que esta configurado por el navegador
+		-	
+	</audio>
+ATRIBUTOS DE INPUT
+	Tipos de input
+		<input type ="texto">  : tipo de dato texto
+		<input type ="password">  : tipo de dato contraseñas 
+		<input type ="number">  : tipo de dato numero 
+		<input type ="email">  : tipo de dato email -----@---.com
+		<input type ="color">  : permite seleccionar un color
+		<input type ="range" min="" max="" >: permite selleccionar un rango entre min y max
+		<input type ="date">  : permite enviar fechas
+		<input type ="time" value="">  :permite enviar horas
+		<input type ="button" value="nombre del boton">  : permite colocar un boton
+		<input type ="submit">  : es un boton que envia los datos
+	Required
+	<input type ="password" required = ""> :no puede dejar el espacio en blanco

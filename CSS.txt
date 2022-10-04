@@ -1,0 +1,143 @@
+PARA TRAER CSS A NUESTRA PAGINA WEB UTILIZAMOS 
+	<link rel="stylesheet" type="text/css" href="nombre de la pagina de css">
+
+ESTRUCTURA CSS
+
+	sector {
+		propidad:valor
+	}
+	Selector = los objetos a los cuales queremos agregarle formas
+	Propiedad = es lo que queremos hacer (agregar bordes, cambiar el color, cambiar la posición, etc.)
+	Tipos de selectores
+		Selector universal = * : selecciona todos los elementos
+		Selector de tipo = se seleccionan por el nombre de los elementos
+		Selector por clases = .nombre de la clase: se agregamos el atributo class =”nombre de la case”
+		Selector por identificador = # nombre del id
+		Selector por atributo = [se crea un atribulo con un valor en la pagina de html]
+		Selector por descendiente = <h2><b>lorem</b></h2> primero colocamos la etiquera contenedor luego la etiqueta contenida
+			h2 b {
+				 propidad:valor
+			}
+		Selector por  pseudo-clases =
+			hover {
+				para cuando er raton pase por encima cambie de color
+				propidad:valor
+			}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+	ESPECIFICIDAD
+		-!important
+
+			sector {
+				propidad:valor !important
+			}	
+		-estilos en linea
+		-identificadores
+		-clases, pseudo-clases, atributos
+		-elementos, pseudo-elementos
+////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	METODOLOGIA BEM
+		Se basa en el nombre de la clae para saber que elementos se esta seleccionando
+		primero se coloca el nombre del contenedor, desoues se coloca 2 _ _ y despues el nombre del elemento
+
+		EJEMPLO
+			<div class = "contact-from">
+				<input type ="text" class ="contact-form__imput>
+			<>
+		cuando hay muchops imput se puede colocar .contact-form__input:frist-child{}
+		o .contact-form__input-- otra palabra
+////////////////////////////////////////////////////////////////////////////////////
+
+	TEORIA DE MEDIDAS
+		Unidades de medida relativas: son las medidas variables rem y por defecto em=16px 
+			em = al valor que le demos a la caja contenedora
+			Ejemplo
+				.contac-form{
+					font-size:25px
+				}
+				.contact-form__h2{
+					font-size:1em        1 em = 25 px 
+				}
+		Unidades de medida fijas: px,cm,mm,pt
+
+		vw = viewport whith     porcentaje que utiliza a lo ancho de la caja de la contiene
+		vh = viewport height    porcentaje que utiliza a lo alto de la pantalla
+	font-size: cambia el tamalo de la letra 
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	PROPIEDADES DE TEXTO
+		font-size: tamaño de letra
+		font-family: tipografia
+			como exportar una tipografia
+				-ir a google fons	
+				- le damos al + 
+				- copiamos el link al archivo css
+				- se pega en el head
+				- en caso de que no este de coloca una coma 
+				font-family: 'Rubik Glitch', cursive;
+		line-height: es el espacio total que ocupa una letra, empieza de la mitad: es como el doble espacio de intre lineas 
+		font-weight: es el grosor de la letra -----normal -100-200....
+		
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	NORMALIZE
+		agregar al codigo de normalize.css
+			img
+			max-width: 100%; para que las imagenes no se pasen en dispositivos moviles 
+			*{
+
+				box-sizing: border-box;			para que las cajas sean siempre del mismo tamaño
+				padding: 0;
+  				margin: 0;
+			}
+		
+		para incluirlo 
+			<link rel="stylesheet" type="text/css" href="normalize.css">
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	TEORIA DE CAJAS
+		como convertir una caja en bloque a una en linea
+			display: inline
+		como convertir una caja en linea a una en bloque
+			display: block
+
+
+		display permite cambiar el comportamiento de las cajas 
+
+	PROPIEDADES DE CAJAS
+		-background-color:    	cambia el color del fondo
+		-padding:  		es la distacia que hay entre el texto y la caja
+			-left		texto y el lado izquierdo
+			-top		texto y arriba
+			-right		texto y derecha
+			-bottom		texto y abajo
+	
+			padding-bottom: Xpx
+			padding-top: Xpx
+			padding-left: Xpx
+			padding-right: Xpx
+
+			padding:20px			     para darle 20 px a todos los lados de la caja
+			
+			padding: 20px, 30px		     primero eje Y y despues eje x
+
+			padding: 10px,20px,30px,40px	     primero el top, right,bottom,left		
+		
+		-height:			alto
+		-width:				ancho
+		-text-aling: center		centra el texto
+		-margin				es la distacia que hay entre las 2 cajas, se usa como el padding
+		-border-radius			es para redordear el borde
+		-border 
+			
+		-online
+		
+
+		-
+
+
+
+
+		 

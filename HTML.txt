@@ -1,0 +1,159 @@
+ESTUCTURA INICIAL HTML
+	<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>
+			NOMBRE DE LA PESTAÑA
+		</title>
+		
+		<meta charsert="utf-8"> 
+			permite camviar la codificacion del codigo dela colocar tildes o acentos
+		<link rel="icon" href="imagen.ico">
+			permite colocar icono a la pestaña de la pagina LAS IMAGENES TIENEN UE SER .ICO		
+
+	</head>
+	
+	<body>
+		<header>
+			<nav>
+				Es donde sse encuentra el navegador
+				<ul>
+					<li><a href>
+				</ul>
+			</nav>
+		</header>
+		<article>
+			<section>
+				seccion pincipal
+			</section>
+		</article>
+		<aside>
+			barra lateral
+		</aside>
+		<footer>
+			pie de pagina
+		</footer>	
+	</body>
+	
+	
+</html>
+	
+
+<Etiqueta atributo=" valor ">
+		
+	</Etiqueta>
+EJEMPLO
+	<BOTON Color = "rojo"  tamaño = "grande"  borde = "negros">
+	
+	</BOTON>
+
+
+ETIQUETAS
+	<title>
+		Esta etiqeta sirve para colocar un titulo a la pestaña de la pagina web
+	</title>
+
+	<br>
+		Esta etiqeta sirve para completa la linea de la caja que estamos utilizando 
+///////////////////////////////////////////////////////////////////////////////////////
+ETIQUETAS DE TEXTO	
+
+	<h1 al h6>
+		Esta etiqeta sirve para escribir el titlulo en un proyecto
+	</h1>
+
+	<p>
+		Esta etiqeta sirve escribir parrafos 
+	</p>
+
+	<b>
+		Esta etiqeta sirve poner la letra en negrita 
+	</b>
+	<a href="">
+		Esta etiqeta sirve para redirigir a otras paginas web
+		-Para entrar en una carpeta: nombreCarpeta/pagina.html
+		-Para regresar a la Pagina anterior ../index.html  	
+	</a>
+	<i>
+		Esta etiqeta sirve poner la letra en italica
+	</i>
+	<strike>
+		Esta etiqeta sirve tachar la letra 
+	</strike>
+	<small>
+		Esta etiqeta sirve la letra chiquita 
+	</small>
+	
+/////////////////////////////////////////////////////////	
+	<div>
+		Esta etiqeta sirve para separ y dividir contenido
+	</div>
+/////////////////////////////////////////////////////////////////////////////////////	
+ETIQUETAS DE LISTAS
+	Etiquetas de listas ordenadas	
+	<ol>
+		<li> Contenido de la lista </li> 
+	</ol>
+	Etiquetas de listas desordenadas
+	<ul>
+		<li> Contenido de la lista </li> 
+	</ul>
+
+/////////////////////////////////////////////////////////////////////////////////////
+ETIQUETAS DE MULTIMEDIA
+	<img src="">
+		Esta etiqeta para trear imagenes al proyecto
+	<video src="">
+		Esta etiqeta sirve traer videos al proyecto 
+	</video>
+	<audio src="">
+		Esta etiqeta sirve para traer un audio al proyecto
+	</audio>
+
+////////////////////////////////////////////////////////////////////////////////////////////
+ETIQUETAS DE FORMULARIO	
+	<form>
+		- <input type ="" name=""> :Etiqueta de entrada de datos
+		- <textarea ></textarea> sirve como un input
+		-
+	</form>
+
+////////////////////////////////////////////////////////////////////////////////
+ETIQUETA PARA TABLAS	
+
+	<table>
+		Esta etiqeta sirve para hacer tablas 
+	</table>
+	<tr>
+		Esta etiqeta sirve para definir las filas de la tabla
+	</tr>
+	<td>
+		Esta etiqeta sirve definir los campos que hay en cada fila	
+	</td>
+	
+	ESTRUCTURA
+	<table>
+		<tr>
+			<td>nombre</td>
+			<td>apellido</td>
+		</tr> 
+
+		<tr>
+			<td>erick</td>
+			<td>gonzalez</td>
+		</tr> 
+	</table>
+/////////////////////////////////////////////////////////////////////////////////
+	<center>
+		Esta etiqeta sirve centrar el contenido que esta en medio 
+	</center>
+	<>
+		Esta etiqeta sirve 
+	</>
+	<>
+		Esta etiqeta sirve 
+	</>
+	<>
+		Esta etiqeta sirve 
+	</>
